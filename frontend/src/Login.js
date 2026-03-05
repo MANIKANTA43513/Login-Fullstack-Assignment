@@ -22,7 +22,7 @@ function Login() {
     setError("");
 
     try {
-      const res = await axios.post("https://login-fullstack-assignment.onrender.com/", {
+      const res = await axios.post("https://login-fullstack-assignment.onrender.com/login", {
         username,
         password
       });
